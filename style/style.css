@@ -1,0 +1,148 @@
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 28px;
+    margin: 30px 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+
+#nav-text-h{
+    margin: 0;
+    font-weight: 800;
+    color: rgb(84, 77, 77);
+}
+#nav-text-p{
+    margin: 0;
+    font-size: 21px;
+    font-weight: 500;
+    color: #777070;
+}
+
+.button{
+    padding: 8px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(91, 91, 253);
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+img{
+    padding: 40px 0px;
+}
+
+.card-h{
+    margin: 0;
+    padding: 0px 0px 8px 0px;
+}
+.card-p{
+    margin: 0;
+    font-size: small;
+}
+
+.input{
+    width: 12%;
+    padding:  2px;
+    font-size: small;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    margin-top: 18px;
+    border: 0;
+    padding: 4px 6px;
+}
+
+.span{
+    font-size: small;
+    align-items: center;
+    margin: 5px;
+}
+
+.btn{
+    padding: 10px 120px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(91, 91, 253);
+    color: white;
+    font-weight: 600;
+    margin: 25px 0px;
+}
+
+.single{
+    border: 2px solid rgb(248, 231, 231);
+    width: 380px;
+    border-radius: 7px;
+
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.calculate{
+    text-align: center;
+    border: 2px solid rgb(248, 231, 231);
+    width: 260px; 
+    height: 440px;
+    border-radius: 7px;
+}
+
+
+.calculate-h{
+  margin-top: 30px;
+}
+
+
+.all{
+    margin: 30px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width:480px) {
+    
+    .container{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        margin: 15px 10px;
+        position: sticky;
+        top: 0;
+
+    }
+
+    .single{
+        width: 160px;
+        border: 1px solid rgb(248, 231, 231);
+    }
+
+    .calculate{
+        width: 160px;
+        height: 330px;
+        position: sticky;
+        top: 30px;
+    }
+
+    img{
+        width: 120px;
+    }
+    
+    .btn{
+        padding: 10px 40px;
+    }
+
+    .all{
+        margin: 30px 10px;
+        gap: 14px;
+    }
+
+}
+
